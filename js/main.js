@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    enquire.register("screen and (min-width:1023px))", {
+    enquire.register("screen and (min-width:767px))", {
 
         // OPTIONAL
         // If supplied, triggered when a media query matches.
