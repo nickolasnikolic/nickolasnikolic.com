@@ -21,10 +21,12 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+a{
     /* font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif; */
     font-family: "alegreya", serif;
     font-weight: 700;
+	color: palegoldenrod;
 }
 
 nav{
@@ -80,11 +82,17 @@ ul{
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
+.social, .nav{}
+
 /* Phone screens ----------- */
 @media(max-width:767px) {
     body{
         background-color: white;
     }
+	
+	.collapse{
+		background-color: cornsilk;
+	}
     
     .intro-message {
         padding-bottom: 15%;
@@ -93,12 +101,14 @@ ul{
     .intro-message > h1 {
         font-size: 3em;
     }
+	
     .lifestory p,
     .lifestory h2,
     .lifestory h3,
     .lifestory h4{
-        color: #f8f8f8;
+        color: papayawhip;
     }
+	
     ul.intro-social-buttons > li {
         display: block;
         margin-bottom: 20px;
@@ -194,11 +204,13 @@ ul{
         float: left;
         margin-top: 15px;
     }
-    
+
     .lifestory p, .lifestory h2, .lifestory h3{
         color: #fff;
     }
+
 }
+
 
 @media(max-width:767px) {
     body{
@@ -221,9 +233,13 @@ ul{
     }
 }
 
+
 footer {
     padding: 50px 0;
-    /* background-color: #f8f8f8; */
+}
+
+footer a{
+	color: cadetblue;
 }
 
 p.copyright {
