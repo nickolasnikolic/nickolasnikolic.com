@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 body,
 html {
     width: 100%;
@@ -23,7 +17,6 @@ h4,
 h5,
 h6,
 a{
-    /* font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif; */
     font-family: "alegreya", serif;
     font-weight: 700;
 	color: palegoldenrod;
@@ -84,45 +77,6 @@ ul{
 
 .social, .nav{}
 
-/* Phone screens ----------- */
-@media(max-width:767px) {
-    body{
-        background-color: white;
-    }
-	
-	.collapse{
-		background-color: cornsilk;
-	}
-    
-    .intro-message {
-        padding-bottom: 15%;
-    }
-
-    .intro-message > h1 {
-        font-size: 3em;
-    }
-	
-    .lifestory p,
-    .lifestory h2,
-    .lifestory h3,
-    .lifestory h4{
-        color: papayawhip;
-    }
-	
-    ul.intro-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.intro-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
-
-    .intro-divider {
-        width: 100%;
-    }
-}
 
 .network-name {
     text-transform: uppercase;
@@ -213,6 +167,42 @@ ul{
 
 
 @media(max-width:767px) {
+	body{
+        background-color: white;
+    }
+	
+	.collapse{
+		background-color: cornsilk;
+	}
+    
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+	
+    .lifestory p,
+    .lifestory h2,
+    .lifestory h3,
+    .lifestory h4{
+        color: papayawhip;
+    }
+	
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
     body{
         background-color: white;
     }
