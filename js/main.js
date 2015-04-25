@@ -1,11 +1,11 @@
 $(document).ready(function(){
-/*
+
     enquire.register("screen and (min-width:768px)", {
 
         // OPTIONAL
         // If supplied, triggered when a media query matches.
         match : function() {
-*/
+
             $('a[href*=#]:not([href=#])').click(function() {
                 if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
                 var target = $(this.hash);
@@ -62,7 +62,7 @@ $(document).ready(function(){
                 smoothScrollingDuration: 1750,
                 forceHeight: false
             } );
-/*
+
         },      
 
         // OPTIONAL
@@ -71,6 +71,6 @@ $(document).ready(function(){
         unmatch : function() {}
 
     });
-*/
+
 });
 
