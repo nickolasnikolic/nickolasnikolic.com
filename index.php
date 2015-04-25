@@ -205,7 +205,7 @@
                 <div class="col-lg-6">
                     <ul class="list-inline banner-social-buttons social">
                         <li>
-                            <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><span class="network-name">github</span></a>
+                            <a href="https://github.com/nickolasnikolic" class="btn btn-default btn-lg"><span class="network-name">github</span></a>
                         </li>
                         <li>
                             <a href="https://www.facebook.com/nickolasnikolic" class="btn btn-default btn-lg"><span class="network-name">facebook</span></a>
