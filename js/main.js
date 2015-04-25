@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    enquire.register("screen and (min-width:768px) and (max-resolution: 190dpi)", {
+    enquire.register("screen and (min-width:1023px))", {
 
         // OPTIONAL
         // If supplied, triggered when a media query matches.
