@@ -1,11 +1,9 @@
 $(document).ready(function(){
 
-    enquire.register("screen and (min-width:767px))", {
+    enquire.register("screen and (min-width:767px)", {
 
-        // OPTIONAL
-        // If supplied, triggered when a media query matches.
         match : function() {
-
+			console.info("query running");
             $('a[href*=#]:not([href=#])').click(function() {
                 if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
                 var target = $(this.hash);
